@@ -8,10 +8,9 @@ body {
 
 .masthead{
   padding:6em 0;
-  background-image:url('https://download.unsplash.com/reserve/AXx3QORhRDKAMrbb8pX4_photo%202.JPG');
+  background-image:url('../images/sea.JPG');
   background-size:cover;
   backgroun-repeat:norepeat;
-  border-top: solid 1em #000f1f;
 }
 .masthead-heading,.masthead-intro,footer{
   text-align:center;
