@@ -1,0 +1,96 @@
+body {
+    /* Typography Declarations */
+    color: #222222;
+    font-size: 1em;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    margin:0px;
+}
+
+.masthead{
+  padding:6em 0;
+  background-image:url('https://download.unsplash.com/reserve/AXx3QORhRDKAMrbb8pX4_photo%202.JPG');
+  background-size:cover;
+  backgroun-repeat:norepeat;
+  border-top: solid 1em #000f1f;
+}
+.masthead-heading,.masthead-intro,footer{
+  text-align:center;
+}
+.masthead-intro{
+  padding:0.1em;
+  margin-bottom: 0.1em;
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 2em;
+}
+.masthead-heading{
+  padding:-0.2em;
+    margin-top: -0.2em;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: bold;
+    font-size: 6em;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+  text-shadow: 4px 4px 4px #000;
+}
+.introduction > p,
+.location > p,
+.footer > p {
+    /* Typography Declarations */
+    font-weight: 300;
+    letter-spacing: 0.05em;
+}
+
+.introduction,
+.location,
+.questions,
+{
+    max-width: 38em;
+    margin-left: auto;
+    margin-right: auto;
+  margin-top:2em;
+}
+.footer{
+  margin-left: auto;
+    margin-right: auto;
+  margin-top:2em;
+  padding: 2em;
+}
+.footer > p{
+  color:#ffffff;
+}
+ul.social{
+  list-style: none;
+  padding-left: 0em;
+}
+
+.social > li{
+  display:inline-block;
+}
+.questions > h2 {
+    /* Typography Declarations */
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+footer {
+  /* Red, Green, Blue: #RRGGBB */
+  background-color: rgb(62, 103, 142);
+}
+h1 {
+  color: rgb(62, 103, 142);
+  text-shadow: 1px 1px 1px #000;
+}
+
+@media only screen and (max-width: 500px) {
+    .masthead {
+        padding: 3em 0;
+    }
+    .masthead-heading {
+        font-size: 3em;
+    }
+    .footer{
+      padding: 1em;
+
+    }
+}
